@@ -8,7 +8,7 @@ SUFFIX=""
 [ "${ARCH}" != "amd64" ] && SUFFIX="_${ARCH}"
 
 cd $(dirname $0)/..
-if [ ! -e bin/rancher-cni-bridge ]; then
+if [ ! -e bin/rancher-bridge ]; then
     ./scripts/build
 fi
 

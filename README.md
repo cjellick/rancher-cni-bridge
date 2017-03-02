@@ -11,7 +11,7 @@ based on the upstream CNI bridge plugin with customizations on top.
 
 ## Running
 
-The `rancher-cni-bridge` plugin binary needs to be placed
+The `rancher-bridge` plugin binary needs to be placed
 inside `/opt/cni/bin` directory and the necessary configuration
 file needs to be placed inside `/etc/cni/net.d` directory.
 
